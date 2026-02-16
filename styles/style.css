@@ -43,3 +43,10 @@ table {
   border-spacing: 0;
 }
 /*end of removing default browser css*/
+
+
+header,.logo-box,.nav-box,.nav-list,
+#best-box,#project-box,#social-list,
+#ram-signature{
+  display: flex;
+}
