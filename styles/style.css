@@ -44,9 +44,53 @@ table {
 }
 /*end of removing default browser css*/
 
-
-header,.logo-box,.nav-box,.nav-list,
+body{
+  color:orange;
+  background-color: black;
+}
+header,#logo-box,#nav-box,#nav-list,
 #best-box,#project-box,#social-list,
 #ram-signature{
   display: flex;
+}
+header{
+  padding: 10px;
+  margin:5px;
+  width: 100rem;
+  border-radius: 15px;
+  gap:50rem;
+}
+#logo-box,#nav-box{
+  flex-direction: row;
+  align-items: center;
+}
+#logo-box{
+  width: 80rem;
+  justify-content:flex-end;
+  border:5px solid orange;
+  gap:1rem;
+  padding: 5px;
+  margin-left:3rem;
+}
+#nav-list{
+  width:50rem;
+   justify-content:space-around;
+  gap: 1rem;
+}
+.item-link{
+  text-decoration: none;
+  color:orange;
+}
+.item-link:visited{
+  color:white;
+}
+.item-link:hover,#logo-header:hover{
+  background-color: orange;
+  color:white;
+}
+.item-link:hover{
+  padding:1rem;
+}
+#logo-header{
+  font-size: 30px;
 }
