@@ -48,17 +48,24 @@ body{
   color:orange;
   background-color: black;
 }
-header,#logo-box,#nav-box,#nav-list,
+header,footer,#logo-box,#nav-box,#nav-list,
 #best-box,#project-box,#social-list,
 #ram-signature{
   display: flex;
 }
-header{
+header,footer{
   padding: 10px;
   margin:5px;
   width: 100rem;
   border-radius: 15px;
   gap:50rem;
+}
+footer{
+  align-items: center;
+  flex-direction: column;
+  gap:2rem;
+  height:max-content;
+  justify-content: space-beetwen;
 }
 #logo-box,#nav-box{
   flex-direction: row;
