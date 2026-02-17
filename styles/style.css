@@ -72,7 +72,7 @@ main{
 main,footer{
   flex-direction: column;
 }
-#profile-img{
+#profile-img,.project-img{
   width: 10rem;
   height: 10rem;
 }
