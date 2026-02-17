@@ -53,16 +53,30 @@ header,main,footer,#logo-box,#nav-box,#nav-list,
 #ram-signature{
   display: flex;
 }
-header,footer{
+header,main,article{
+  border-bottom:0.5rem solid orange ;
+  border-radius:0.3rem ;
+}
+header,footer,article{
   padding: 10px;
   margin:5px;
   width: 100rem;
-  border-radius: 15px;
   gap:50rem;
+}
+main{
+  align-items: center;
+  justify-content: space-between;
+  height: 30rem;
+  width: 100rem;
 }
 main,footer{
   flex-direction: column;
 }
+#profile-img{
+  width: 10rem;
+  height: 10rem;
+}
+
 footer{
   align-items: center;
   gap:2rem;
@@ -76,7 +90,6 @@ footer{
 #logo-box{
   width: 80rem;
   justify-content:flex-end;
-  border:5px solid orange;
   gap:1rem;
   padding: 5px;
   margin-left:3rem;
@@ -86,7 +99,7 @@ footer{
    justify-content:space-around;
   gap: 1rem;
 }
-.item-link{
+.item-link,.social-link{
   text-decoration: none;
   color:orange;
 }
