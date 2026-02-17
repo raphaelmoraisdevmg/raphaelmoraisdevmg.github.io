@@ -48,7 +48,7 @@ body{
   color:orange;
   background-color: black;
 }
-header,footer,#logo-box,#nav-box,#nav-list,
+header,main,footer,#logo-box,#nav-box,#nav-list,
 #best-box,#project-box,#social-list,
 #ram-signature{
   display: flex;
@@ -60,9 +60,11 @@ header,footer{
   border-radius: 15px;
   gap:50rem;
 }
+main,footer{
+  flex-direction: column;
+}
 footer{
   align-items: center;
-  flex-direction: column;
   gap:2rem;
   height:max-content;
   justify-content: space-beetwen;
