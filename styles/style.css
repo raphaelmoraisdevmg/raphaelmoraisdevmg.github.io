@@ -48,7 +48,7 @@ body{
   color:orange;
   background-color: black;
 }
-header,main,footer,#logo-box,#nav-box,#nav-list,
+header,main,article,footer,#logo-box,#nav-box,#nav-list,
 #best-box,#project-box,#social-list,
 #ram-signature{
   display: flex;
@@ -65,7 +65,7 @@ header,footer,article{
 }
 main{
   align-items: center;
-  justify-content: space-between;
+  justify-content:space-between;
   height: 30rem;
   width: 100rem;
 }
@@ -76,7 +76,16 @@ main,footer{
   width: 10rem;
   height: 10rem;
 }
-
+article{
+  width: 80rem;
+}
+.project-box{
+  width: 28rem;
+  height: 30rem;
+}
+.project-description{
+  height: 10rem;
+}
 footer{
   align-items: center;
   gap:2rem;
@@ -99,7 +108,7 @@ footer{
    justify-content:space-around;
   gap: 1rem;
 }
-.item-link,.social-link{
+a,.item-link,.social-link{
   text-decoration: none;
   color:orange;
 }
